@@ -12,9 +12,8 @@ name: Preview on Spin Cloud
 
 on:
   pull_request:
-    branches: ["main", "v*"]
-    types: ['opened', 'synchronize', 'reopened', 'closed']
-  workflow_dispatch:
+    branches:
+      - main
 
 permissions:
   pull-requests: write
